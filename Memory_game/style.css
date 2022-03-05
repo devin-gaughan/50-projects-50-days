@@ -1,0 +1,21 @@
+.container {
+    height: fit-content;
+    border: 1px solid black;
+    border-radius: .2rem;
+    padding: 1rem;
+    width: fit-content;
+}
+
+#grid {
+    width: 466px;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    gap: .3rem;
+    padding-left: 3rem;
+    padding-bottom: 3rem;
+}
+
+img {
+    border-radius: .2rem;
+}

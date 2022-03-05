@@ -1,0 +1,20 @@
+header {
+    margin: 2rem 0 0 1rem;
+}
+
+.container {
+    margin: 1rem;
+    padding: 1rem 2rem 2rem 2rem;
+    width: auto;
+    border: solid 2px black;
+    border-radius: 1rem;
+    font-family: sans-serif;
+}
+
+button {
+    color: rgb(32, 32, 32);
+    background-color: antiquewhite;
+    border-radius: 1rem;
+    padding: .5rem;
+    width: 5rem;
+}
