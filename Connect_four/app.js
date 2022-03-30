@@ -104,7 +104,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }
     }
-
+    
     for (let i = 0; i < squares.length; i++) {
         squares[i].onclick = () => {
             // If the square below your current square is taken, you can go on top of it
