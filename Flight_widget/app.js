@@ -43,7 +43,10 @@ function populateTable() {
         const tableRow = document.createElement('tr')
         for(const flightDetail in flight) {
             const tableCell = document.createElement("td")
+            console.log('flightDetail', flightDetail)
         }
         tableBody.append(tableRow)
     }
 }
+
+populateTable()
