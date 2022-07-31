@@ -30,6 +30,7 @@ header {
 .departures table {
     background-color: rgb(46,46,46);
     text-align: left;
+    min-height: 305px;
 }
 
 .departures table td {
