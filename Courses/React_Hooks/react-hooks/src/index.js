@@ -1,14 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 
-const people = ["Devin", "Danielle", "Douglas"];
+function App() {
+  return (
+    <div>
+      
+    </div>
+  )
+}
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App name="Devin" />
+    <App />
   </React.StrictMode>
 );
 
